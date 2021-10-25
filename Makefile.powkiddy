@@ -22,7 +22,7 @@ LDFLAGS = -Wl,--start-group -lSDL -lSDL_image -lpng -ljpeg -lSDL_mixer -lfreetyp
 
 # Redream (main engine)
 OBJS =  \
-	main.o
+	main.o logo.o
 	
 .c.o:
 	$(CC) $(CFLAGS) -c -o $@ $< 
